@@ -1,14 +1,21 @@
 .icon {
     display: inline-block;
     position: relative;
-    margin-right: 14px;
+    margin-right: 12px;
     width: 24px;
     height: 24px;
     vertical-align: middle;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
+    background-color: inherit;
+    &-right{
+        margin-left: 12px;
+        margin-right: 0;
+    }
 }
-.icon-empire {
-    background-image: url("../img/icons-sprite.svg#empire");
+
+.icon-search {
+    mask-image: url('../img/icons-sprite.svg#icon-search');
+
 }

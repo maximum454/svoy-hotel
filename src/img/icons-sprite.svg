@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg fill="none" viewBox="0 0 24 24" id="icon-search" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M16.468 17.868a8.908 8.908 0 111.4-1.4L22 20.6 20.6 22l-4.132-4.132zm1.368-6.96a6.928 6.928 0 11-13.857 0 6.928 6.928 0 0113.857 0z"
+              fill="#fff"/>
+    </svg>
+</svg>
