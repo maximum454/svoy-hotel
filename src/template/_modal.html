@@ -1,0 +1,936 @@
+<!--Выбор города отгрузки -->
+<div class="remodal delivery" data-remodal-id="delivery">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <div class="title">Выбор города отгрузки</div>
+
+    <select class="select" name="" id="delivery1">
+        <option value="">Екатеринбург</option>
+        <option value="">Екатеринбург</option>
+        <option value="">Екатеринбург</option>
+        <option value="">Екатеринбург</option>
+        <option value="">Екатеринбург</option>
+    </select>
+    <div>
+        <button data-remodal-action="confirm" class="btn btn-primary w100">Подтвердить</button>
+        <button data-remodal-action="cancel" class="btn btn-link w100">Отмена</button>
+    </div>
+
+</div>
+
+<!--Авторизуйтесь для создания заказа -->
+<div class="remodal auth" data-remodal-id="auth">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <div class="title">Авторизуйтесь для создания заказа</div>
+    <form action="">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Логин">
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" placeholder="Пароль">
+        </div>
+        <a class="forgot-password" href="#">Забыли пароль?</a>
+        <div class="form-group">
+            <input type="submit" class="btn btn-primary" value="Войти">
+        </div>
+        <a href="#" class="btn w100 btn-registration">Регистрация</a>
+    </form>
+</div>
+
+<!--Отправить на email -->
+<div class="remodal delivery" data-remodal-id="send-email">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <div class="title">Отправить на email</div>
+
+    <form action="">
+        <div class="form-group">
+            <label class="form-label" for="">Email</label>
+            <input type="text" class="form-control">
+        </div>
+    </form>
+    <div>
+        <button data-remodal-action="confirm" class="btn btn-primary w100">Отправить</button>
+        <button data-remodal-action="cancel" class="btn btn-link w100">Отмена</button>
+    </div>
+</div>
+
+<!--Удаление товаров -->
+<div class="remodal delivery" data-remodal-id="delet-product">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <div class="title">Удаление товаров</div>
+    <hr>
+    <p>Вы точно хотите удалить выбранные товары? Отменить действие будет невозможно</p>
+    <div>
+        <button data-remodal-action="confirm" class="btn btn-primary">Удалить</button>
+        <button data-remodal-action="cancel" class="btn btn-link">Отмена</button>
+    </div>
+</div>
+
+<!--Магазин -->
+<div class="remodal delivery" data-remodal-id="score">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <div class="title">Магазин</div>
+    <form action="">
+        <div class="form-group">
+            <label class="form-label" for="">Название магазина</label>
+            <input type="text" class="form-control" placeholder="Богатырский">
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="">Адрес магазина</label>
+            <input type="text" class="form-control" placeholder="г. Калининград, ул. Полоцкая, д. 1">
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="comm1">Комментарий</label>
+            <textarea class="form-control" name="" id="comm1" cols="30" rows="10"></textarea>
+        </div>
+    </form>
+    <div>
+        <button data-remodal-action="confirm" class="btn btn-primary">Сохранить изменения</button>
+        <button data-remodal-action="cancel" class="btn btn-outline-primary">Отмена</button>
+    </div>
+</div>
+
+<!--Магазин изменение -->
+<div class="remodal delivery" data-remodal-id="score-change">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <div class="title">Магазин</div>
+    <form action="">
+        <div class="form-group">
+            <label class="form-label" for="">Название магазина</label>
+            <input type="text" class="form-control" placeholder="Богатырский">
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="">Адрес магазина</label>
+            <input type="text" class="form-control" placeholder="г. Калининград, ул. Полоцкая, д. 1">
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="score-change">Комментарий</label>
+            <textarea class="form-control" name="" id="score-change" cols="30" rows="10"></textarea>
+        </div>
+    </form>
+    <div>
+        <button data-remodal-action="confirm" class="btn btn-primary">Сохранить изменения</button>
+        <button data-remodal-action="cancel" class="btn btn-outline-primary">Отмена</button>
+    </div>
+</div>
+
+<!--Новая ценовая группа-->
+<div class="remodal delivery" data-remodal-id="price-group">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <div class="title">Новая ценовая группа</div>
+    <form action="">
+        <div class="form-group">
+            <label class="form-label" for="">Название группы</label>
+            <input type="text" class="form-control" placeholder="">
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="">Скидка в процентах</label>
+            <input type="text" class="form-control" placeholder="">
+        </div>
+    </form>
+    <div>
+        <button data-remodal-action="confirm" class="btn btn-primary">Добавить</button>
+        <button data-remodal-action="cancel" class="btn btn-outline-primary">Отмена</button>
+    </div>
+</div>
+
+<!--Добавление нового пользователя-->
+<div class="remodal delivery" data-remodal-id="add-user">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <div class="title">Добавление нового пользователя</div>
+    <form action="">
+        <div class="form-group">
+            <label class="form-label" for="">Имя</label>
+            <input type="text" class="form-control" placeholder="Егор">
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="">Email</label>
+            <input type="text" class="form-control" placeholder="info@mail.ru">
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="">Логин</label>
+            <input type="text" class="form-control" placeholder="bbq">
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="">Пароль</label>
+            <input type="password" class="form-control" placeholder="">
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="">Повторите пароль</label>
+            <input type="password" class="form-control" placeholder="">
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="add-user1">Выберите ценовую группу</label>
+            <select name="" id="add-user1">
+                <option value="">Новогодняя -10%</option>
+                <option value="">Новогодняя -10%</option>
+                <option value="">Новогодняя -10%</option>
+                <option value="">Новогодняя -10%</option>
+            </select>
+        </div>
+    </form>
+    <div>
+        <button data-remodal-action="confirm" class="btn btn-primary">Добавить</button>
+        <button data-remodal-action="cancel" class="btn btn-outline-primary">Отмена</button>
+    </div>
+</div>
+
+<!--Фильтр-->
+<div class="remodal delivery" data-remodal-id="filter">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <div class="title">Фильтр</div>
+    <form action="">
+        <div class="form-group">
+            <label class="form-label" for="filter1">Тип</label>
+            <select name="" id="filter1">
+                <option value="">Бескаркасные</option>
+                <option value="">Бескаркасные</option>
+                <option value="">Бескаркасные</option>
+                <option value="">Бескаркасные</option>
+                <option value="">Бескаркасные</option>
+
+            </select>
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="">Стоимость (1 шт.)</label>
+            <div class="form-row">
+                <input type="text" class="form-control" placeholder="от">
+                <div class="form-dif">–</div>
+                <input type="text" class="form-control" placeholder="до">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="filter2">Сортировка</label>
+            <select name="" id="filter2">
+                <option value="">Все</option>
+                <option value="">Все</option>
+                <option value="">Все</option>
+                <option value="">Все</option>
+                <option value="">Все</option>
+
+            </select>
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="filter3">Наличие</label>
+            <select name="" id="filter3">
+                <option value="">Не имеет значения</option>
+                <option value="">Не имеет значения</option>
+                <option value="">Не имеет значения</option>
+                <option value="">Не имеет значения</option>
+                <option value="">Не имеет значения</option>
+
+            </select>
+        </div>
+        <hr>
+        <div class="title">Подбор по авто</div>
+        <div class="form-group">
+            <label class="form-label" for="filter4">Марка</label>
+            <select name="" id="filter4">
+                <option value="">Все</option>
+                <option value="">Все</option>
+                <option value="">Все</option>
+                <option value="">Все</option>
+                <option value="">Все</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="filter5">Модель</label>
+            <select name="" id="filter5">
+                <option value="">Все</option>
+                <option value="">Все</option>
+                <option value="">Все</option>
+                <option value="">Все</option>
+                <option value="">Все</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="filter6">Модификация</label>
+            <select name="" id="filter6">
+                <option value="">Все</option>
+                <option value="">Все</option>
+                <option value="">Все</option>
+                <option value="">Все</option>
+                <option value="">Все</option>
+            </select>
+        </div>
+        <hr>
+        <div class="title">Подбор по параметрам</div>
+        <div class="form-group">
+            <label class="form-label" for="filter7">Крепление</label>
+            <select name="" id="filter7">
+                <option value="">Все</option>
+                <option value="">Все</option>
+                <option value="">Все</option>
+                <option value="">Все</option>
+                <option value="">Все</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="filter8">Размер</label>
+            <select name="" id="filter8">
+                <option value="">Все</option>
+                <option value="">Все</option>
+                <option value="">Все</option>
+                <option value="">Все</option>
+                <option value="">Все</option>
+            </select>
+        </div>
+    </form>
+    <div>
+        <button data-remodal-action="confirm" class="btn btn-primary w100">Показать 192 товара</button>
+        <button data-remodal-action="cancel" class="btn btn-link w100">Сбросить фильтр</button>
+    </div>
+</div>
+
+<!--Уведомить о поступлении на склад-->
+<div class="remodal delivery" data-remodal-id="notify-arrival">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <div class="title">Уведомить о поступлении на склад</div>
+    <form action="">
+
+        <div class="form-group">
+            <label class="form-label" for="">Email</label>
+            <input type="text" class="form-control" placeholder="">
+        </div>
+        <div class="form-group">
+            <button data-remodal-action="confirm" class="btn btn-primary w100">Отправить</button>
+        </div>
+    </form>
+</div>
+
+<!--Выберите магазин и необходимое количество товара-->
+<div class="remodal select-shop" data-remodal-id="select-shop">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <div class="title">Выберите магазин и необходимое количество товара</div>
+    <form action="">
+        <div class="form-group">
+            <div class="add-quantity-store__body">
+                <div class="add-quantity-store__item">
+                    <div class="add-quantity-store__">
+                        <div class="add-quantity-store__name">Богатырский</div>
+                        <div class="add-quantity-store__anons">г. КЛН, ул. Полоцкая, д. 1</div>
+                    </div>
+                    <div class="count-number">
+                        <div class="count-number__body">
+                            <span class="count-number__minus js-minus"></span>
+                            <input type="text" value="0" size="4">
+                            <span class="count-number__plus js-plus"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="add-quantity-store__item">
+                    <div class="add-quantity-store__">
+                        <div class="add-quantity-store__name">Богатырский</div>
+                        <div class="add-quantity-store__anons">г. КЛН, ул. Полоцкая, д. 1</div>
+                    </div>
+                    <div class="count-number">
+                        <div class="count-number__body">
+                            <span class="count-number__minus js-minus"></span>
+                            <input type="text" value="1" size="4">
+                            <span class="count-number__plus js-plus"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="add-quantity-store__item">
+                    <div class="add-quantity-store__">
+                        <div class="add-quantity-store__name">Богатырский</div>
+                        <div class="add-quantity-store__anons">г. КЛН, ул. Полоцкая, д. 1</div>
+                    </div>
+                    <div class="count-number">
+                        <div class="count-number__body">
+                            <span class="count-number__minus js-minus"></span>
+                            <input type="text" value="1" size="4">
+                            <span class="count-number__plus js-plus"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="add-quantity-store__item">
+                    <div class="add-quantity-store__">
+                        <div class="add-quantity-store__name">Богатырский</div>
+                        <div class="add-quantity-store__anons">г. КЛН, ул. Полоцкая, д. 1</div>
+                    </div>
+                    <div class="count-number">
+                        <div class="count-number__body">
+                            <span class="count-number__minus js-minus"></span>
+                            <input type="text" value="1" size="4">
+                            <span class="count-number__plus js-plus"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="add-quantity-store__item">
+                    <div class="add-quantity-store__">
+                        <div class="add-quantity-store__name">Богатырский</div>
+                        <div class="add-quantity-store__anons">г. КЛН, ул. Полоцкая, д. 1</div>
+                    </div>
+                    <div class="count-number">
+                        <div class="count-number__body">
+                            <span class="count-number__minus js-minus"></span>
+                            <input type="text" value="1" size="4">
+                            <span class="count-number__plus js-plus"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="add-quantity-store__item">
+                    <div class="add-quantity-store__">
+                        <div class="add-quantity-store__name">Богатырский</div>
+                        <div class="add-quantity-store__anons">г. КЛН, ул. Полоцкая, д. 1</div>
+                    </div>
+                    <div class="count-number">
+                        <div class="count-number__body">
+                            <span class="count-number__minus js-minus"></span>
+                            <input type="text" value="1" size="4">
+                            <span class="count-number__plus js-plus"></span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group form-row">
+            <button data-remodal-action="confirm" class="btn btn-primary w100">Подтвердить</button>
+            <button data-remodal-action="confirm" class="btn btn-outline-primary w100">Сбросить</button>
+        </div>
+    </form>
+</div>
+
+<!--Добавьте нужное количество в выбранный магазин-->
+<div class="remodal select-shop" data-remodal-id="select-shop-add">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <div class="title">Добавьте нужное количество в выбранный магазин</div>
+    <form action="">
+        <div class="form-group">
+            <div class="add-quantity-store__body">
+                <div class="add-quantity-store__item">
+                    <div class="add-quantity-store__">
+                        <div class="add-quantity-store__name">Богатырский</div>
+                        <div class="add-quantity-store__anons">г. КЛН, ул. Полоцкая, д. 1</div>
+                    </div>
+                    <div class="count-number">
+                        <div class="count-number__body">
+                            <span class="count-number__minus js-minus"></span>
+                            <input type="text" value="0" size="4">
+                            <span class="count-number__plus js-plus"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="add-quantity-store__item">
+                    <div class="add-quantity-store__">
+                        <div class="add-quantity-store__name">Богатырский</div>
+                        <div class="add-quantity-store__anons">г. КЛН, ул. Полоцкая, д. 1</div>
+                    </div>
+                    <div class="count-number">
+                        <div class="count-number__body">
+                            <span class="count-number__minus js-minus"></span>
+                            <input type="text" value="1" size="4">
+                            <span class="count-number__plus js-plus"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="add-quantity-store__item">
+                    <div class="add-quantity-store__">
+                        <div class="add-quantity-store__name">Богатырский</div>
+                        <div class="add-quantity-store__anons">г. КЛН, ул. Полоцкая, д. 1</div>
+                    </div>
+                    <div class="count-number">
+                        <div class="count-number__body">
+                            <span class="count-number__minus js-minus"></span>
+                            <input type="text" value="1" size="4">
+                            <span class="count-number__plus js-plus"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="add-quantity-store__item">
+                    <div class="add-quantity-store__">
+                        <div class="add-quantity-store__name">Богатырский</div>
+                        <div class="add-quantity-store__anons">г. КЛН, ул. Полоцкая, д. 1</div>
+                    </div>
+                    <div class="count-number">
+                        <div class="count-number__body">
+                            <span class="count-number__minus js-minus"></span>
+                            <input type="text" value="1" size="4">
+                            <span class="count-number__plus js-plus"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="add-quantity-store__item">
+                    <div class="add-quantity-store__">
+                        <div class="add-quantity-store__name">Богатырский</div>
+                        <div class="add-quantity-store__anons">г. КЛН, ул. Полоцкая, д. 1</div>
+                    </div>
+                    <div class="count-number">
+                        <div class="count-number__body">
+                            <span class="count-number__minus js-minus"></span>
+                            <input type="text" value="1" size="4">
+                            <span class="count-number__plus js-plus"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="add-quantity-store__item">
+                    <div class="add-quantity-store__">
+                        <div class="add-quantity-store__name">Богатырский</div>
+                        <div class="add-quantity-store__anons">г. КЛН, ул. Полоцкая, д. 1</div>
+                    </div>
+                    <div class="count-number">
+                        <div class="count-number__body">
+                            <span class="count-number__minus js-minus"></span>
+                            <input type="text" value="1" size="4">
+                            <span class="count-number__plus js-plus"></span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<!--Отправить на email-->
+<div class="remodal delivery" data-remodal-id="send-email">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <div class="title">Отправить на email</div>
+    <form action="">
+
+        <div class="form-group">
+            <label class="form-label" for="">Email</label>
+            <input type="text" class="form-control" placeholder="">
+        </div>
+        <div class="form-group">
+            <button data-remodal-action="confirm" class="btn btn-primary w100">Отправить</button>
+            <button data-remodal-action="confirm" class="btn btn-link w100">Отмена</button>
+        </div>
+    </form>
+</div>
+
+<!--Удаление товаров-->
+<div class="remodal delivery" data-remodal-id="delet-product">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <div class="title">Удаление товаров</div>
+    <form action="">
+
+        <div class="form-group">
+            <p>Вы точно хотите удалить выбранные товары? Отменить действие будет невозможно</p>
+        </div>
+        <div class="form-group">
+            <button data-remodal-action="confirm" class="btn btn-primary">Удалить</button>
+            <button data-remodal-action="confirm" class="btn btn-link">Отмена</button>
+        </div>
+    </form>
+</div>
+
+<!--Прайс ЕКБ 1-7 скачать-->
+<div class="remodal delivery" data-remodal-id="price-down">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <div class="title">Прайс ЕКБ 1-7</div>
+    <form action="">
+
+        <div class="form-group">
+            <p>Выберите действие</p>
+        </div>
+        <div class="form-group">
+            <button data-remodal-action="confirm" class="btn btn-primary">Скачать</button>
+            <button data-remodal-action="confirm" class="btn btn-outline-primary">Смотреть</button>
+        </div>
+    </form>
+</div>
+
+<!--Заявка на подключение к платформе-->
+<div class="remodal delivery" data-remodal-id="connecting-platform">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <div class="title">Заявка на подключение к платформе</div>
+    <form action="">
+        <div class="form-group">
+            <label class="form-label" for="">Ваше имя</label>
+            <input type="text" class="form-control" placeholder="">
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="connecting-platform1">Город</label>
+            <select name="" id="connecting-platform1" aria-placeholder="Санкт-Петербург">
+                <option value="">Санкт-Петербург</option>
+                <option value="">Санкт-Петербург</option>
+                <option value="">Санкт-Петербург</option>
+                <option value="">Санкт-Петербург</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="">Название компании</label>
+            <input type="text" class="form-control" placeholder="">
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="">Номер телефона </label>
+            <input type="text" class="form-control" placeholder="">
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="">Email</label>
+            <input type="text" class="form-control" placeholder="">
+        </div>
+
+        <div class="form-group">
+            <label class="form-label" for="connecting-platform-text">Вопрос</label>
+            <textarea class="form-control" name="" id="connecting-platform-text" cols="30" rows="10"></textarea>
+        </div>
+
+        <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
+                <label class="form-check-label" for="defaultCheck5">
+                    Я принимаю условия <a href="">«Политики обработки персональных данных»</a> и <a
+                        href="">«Пользовательского
+                    соглашения»</a> и даю своё согласие на хранение и обработку мои данных.
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <button data-remodal-action="confirm" class="btn btn-primary w100">Отправить</button>
+            <button data-remodal-action="cancel" class="btn btn-link w100">Отмена</button>
+        </div>
+    </form>
+
+</div>
+
+<!--Категории статей-->
+<div class="remodal delivery" data-remodal-id="nav-articles">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <div class="title">Категории статей</div>
+    <form action="">
+        <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="nav-articles1">
+                <label class="form-check-label" for="nav-articles1">Электроника</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="nav-articles2" id="">
+                <label class="form-check-label" for="nav-articles2">Дача и сад</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="nav-articles3">
+                <label class="form-check-label" for="nav-articles3">Бизнес</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="nav-articles4">
+                <label class="form-check-label" for="nav-articles4">Посуда</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="nav-articles5">
+                <label class="form-check-label" for="nav-articles5">Подарки</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="nav-articles6">
+                <label class="form-check-label" for="nav-articles6">Галантерея</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <button data-remodal-action="confirm" class="btn btn-primary w100">Показать 2 категории</button>
+            <button data-remodal-action="cancel" class="btn btn-link w100">Сбросить фильтр</button>
+        </div>
+    </form>
+
+</div>
+
+<!--Поиск мобильный-->
+<div class="remodal search-mob" data-remodal-id="search-mob">
+
+    <form class="search-mob__form" action="">
+        <div class="form-group d-flex">
+            <div class="search-mob__form-inner">
+                <input type="text" class="form-control js-search-mob" placeholder="Поиск">
+                <input type="submit" class="search-btn" value="">
+                <i class="icon icon-close  js-search-mob-clean"></i>
+            </div>
+            <button data-remodal-action="close" class="remodal-close">Отмена</button>
+        </div>
+    </form>
+
+    <div class="search-mob__header">
+        <div>Вы искали</div>
+        <div>Очистить</div>
+    </div>
+    <div class="search-mob__body">
+        <ul class="search-mob__often">
+            <li><a href=""></a>Утюг с отпаривателем <i class="icon icon-close"></i></li>
+            <li><a href=""></a>Чайник электрический <i class="icon icon-close"></i></li>
+            <li><a href=""></a>Чайный набор <i class="icon icon-close"></i></li>
+        </ul>
+        <div class="products products--list">
+            <div class="products__item">
+                <a href="#" class="products__img">
+                    <img src="./img/products/image4.png" width="236" height="236" alt="">
+                </a>
+                <div class="products__txt">
+                    <div class="products__txt--width">
+                        <div class="products__info">
+                            <div class="products__articul">854-124</div>
+                            <div class="products__city"><i class="icon icon-city"></i> Екб</div>
+                            <div class="products__store other-store js-other-store">Другие склады
+                                <ul class="other-store__list">
+                                    <li><i class="icon icon-city"></i>Мск</li>
+                                    <li><i class="icon icon-city"></i>Нск</li>
+                                    <li><i class="icon icon-city"></i>Влд</li>
+                                    <li><i class="icon icon-city"></i>Клн</li>
+                                    <li><i class="icon icon-city"></i>Прм</li>
+                                    <li><i class="icon icon-city"></i>Кзн</li>
+                                    <li><i class="icon icon-city"></i>Ирк</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="products__name">
+                            MILLIMI Роскошь Набор чайный 14 пр.,
+                            чашка
+                            290мл...
+                        </div>
+                    </div>
+                    <div class="products__price">3132,76 р <span>/шт.</span></div>
+                    <div>
+                        <a href="#" class="btn btn-outline-primary active">
+                            <div>145 шт.</div>
+                            <span>в 4 магазина</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="products__item">
+                <a href="#" class="products__img">
+                    <img src="./img/products/image4.png" width="236" height="236" alt="">
+                </a>
+                <div class="products__txt">
+                    <div class="products__txt--width">
+                        <div class="products__info">
+                            <div class="products__articul">854-124</div>
+                            <div class="products__city"><i class="icon icon-city"></i> Екб</div>
+                            <div class="products__store other-store js-other-store">Другие склады
+                                <ul class="other-store__list">
+                                    <li><i class="icon icon-city"></i>Мск</li>
+                                    <li><i class="icon icon-city"></i>Нск</li>
+                                    <li><i class="icon icon-city"></i>Влд</li>
+                                    <li><i class="icon icon-city"></i>Клн</li>
+                                    <li><i class="icon icon-city"></i>Прм</li>
+                                    <li><i class="icon icon-city"></i>Кзн</li>
+                                    <li><i class="icon icon-city"></i>Ирк</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="products__name">
+                            MILLIMI Роскошь Набор чайный 14 пр.,
+                            чашка
+                            290мл...
+                        </div>
+                    </div>
+                    <div class="products__price">3132,76 р <span>/шт.</span></div>
+                    <div>
+                        <a href="#" class="btn btn-outline-primary active">
+                            <div>145 шт.</div>
+                            <span>в 4 магазина</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="products__item">
+                <a href="#" class="products__img">
+                    <img src="./img/products/image4.png" width="236" height="236" alt="">
+                </a>
+                <div class="products__txt">
+                    <div class="products__txt--width">
+                        <div class="products__info">
+                            <div class="products__articul">854-124</div>
+                            <div class="products__city"><i class="icon icon-city"></i> Екб</div>
+                            <div class="products__store other-store js-other-store">Другие склады
+                                <ul class="other-store__list">
+                                    <li><i class="icon icon-city"></i>Мск</li>
+                                    <li><i class="icon icon-city"></i>Нск</li>
+                                    <li><i class="icon icon-city"></i>Влд</li>
+                                    <li><i class="icon icon-city"></i>Клн</li>
+                                    <li><i class="icon icon-city"></i>Прм</li>
+                                    <li><i class="icon icon-city"></i>Кзн</li>
+                                    <li><i class="icon icon-city"></i>Ирк</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="products__name">
+                            MILLIMI Роскошь Набор чайный 14 пр.,
+                            чашка
+                            290мл...
+                        </div>
+                    </div>
+                    <div class="products__price">3132,76 р <span>/шт.</span></div>
+                    <div>
+                        <a href="#" class="btn btn-outline-primary active">
+                            <div>145 шт.</div>
+                            <span>в 4 магазина</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="products__item">
+                <a href="#" class="products__img">
+                    <img src="./img/products/image4.png" width="236" height="236" alt="">
+                </a>
+                <div class="products__txt">
+                    <div class="products__txt--width">
+                        <div class="products__info">
+                            <div class="products__articul">854-124</div>
+                            <div class="products__city"><i class="icon icon-city"></i> Екб</div>
+                            <div class="products__store other-store js-other-store">Другие склады
+                                <ul class="other-store__list">
+                                    <li><i class="icon icon-city"></i>Мск</li>
+                                    <li><i class="icon icon-city"></i>Нск</li>
+                                    <li><i class="icon icon-city"></i>Влд</li>
+                                    <li><i class="icon icon-city"></i>Клн</li>
+                                    <li><i class="icon icon-city"></i>Прм</li>
+                                    <li><i class="icon icon-city"></i>Кзн</li>
+                                    <li><i class="icon icon-city"></i>Ирк</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="products__name">
+                            MILLIMI Роскошь Набор чайный 14 пр.,
+                            чашка
+                            290мл...
+                        </div>
+                    </div>
+                    <div class="products__price">3132,76 р <span>/шт.</span></div>
+                    <div>
+                        <a href="#" class="btn btn-outline-primary active">
+                            <div>145 шт.</div>
+                            <span>в 4 магазина</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!--Поиск мобильный-->
+<div class="remodal menu-mob" data-remodal-id="menu-mob">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <div class="menu-mob__title">Каталог</div>
+    <form class="menu-mob__form" action="">
+        <input type="text" class="form-control" placeholder="Поиск">
+        <input type="submit" class="menu-mob__btn" value="">
+    </form>
+    <div class="menu-mobile">
+        <div class="menu-mobile__body">
+            <ul class="menu-mobile__ul">
+                <li class="active"><span class="arrow-down"><i class="icon icon-avto"></i> Авто</span>
+                    <ul>
+                        <li><span class="arrow-down">Источники света</span>
+                            <ul>
+                                <li><a href="">Лампы накаливания</a></li>
+                                <li><a href="">Лампы энергосберегающие и светодиодные</a></li>
+                                <li><a href="">Лента светодиодная</a></li>
+                            </ul>
+                        </li>
+                        <li>Электротехника</li>
+                        <li>Освещение</li>
+                    </ul>
+                </li>
+                <li><span class="arrow-down"><i class="icon icon-aromatizatory"></i> Ароматизаторы</span>
+                    <ul>
+                        <li><span class="arrow-down">Источники света</span>
+                            <ul>
+                                <li><a href="">Лампы накаливания</a></li>
+                                <li><a href="">Лампы энергосберегающие и светодиодные</a></li>
+                                <li><a href="">Лента светодиодная</a></li>
+                            </ul>
+                        </li>
+                        <li>Электротехника</li>
+                        <li>Освещение</li>
+                    </ul>
+                </li>
+                <li><span class="arrow-down"><i class="icon icon-bytovaya-tekhnika"></i> Бытовая техника</span>
+                    <ul>
+                        <li><span class="arrow-down">Источники света</span>
+                            <ul>
+                                <li><a href="">Лампы накаливания</a></li>
+                                <li><a href="">Лампы энергосберегающие и светодиодные</a></li>
+                                <li><a href="">Лента светодиодная</a></li>
+                            </ul>
+                        </li>
+                        <li>Электротехника</li>
+                        <li>Освещение</li>
+                    </ul>
+                </li>
+                <li><span class="arrow-down"><i class="icon icon-bytovaya-khimiya"></i> Бытовая химия</span>
+                    <ul>
+                        <li><span class="arrow-down">Источники света</span>
+                            <ul>
+                                <li><a href="">Лампы накаливания</a></li>
+                                <li><a href="">Лампы энергосберегающие и светодиодные</a></li>
+                                <li><a href="">Лента светодиодная</a></li>
+                            </ul>
+                        </li>
+                        <li>Электротехника</li>
+                        <li>Освещение</li>
+                    </ul>
+                </li>
+                <li><span class="arrow-down"><i class="icon icon-galantereya"></i> Галантерея</span></li>
+                <li><span class="arrow-down"><i class="icon icon-dacha-i-sad"></i> Дача и сад</span></li>
+                <li><span class="arrow-down"><i class="icon icon-domashniy-tekstil"></i> Домашний текстиль</span></li>
+                <li><span class="arrow-down"><i class="icon icon-instrumenty"></i> Инструменты</span></li>
+                <li><span class="arrow-down"><i class="icon icon-kantselyarskie-tovary"></i> Канцтовары</span></li>
+                <li><span class="arrow-down"><i class="icon icon-elektrotekhnika"></i> Электроника</span></li>
+                <li><span class="arrow-down"><i class="icon icon-podarki"></i> Подарки</span></li>
+                <li><span class="arrow-down"><i class="icon icon-posuda"></i> Посуда</span></li>
+                <li><span class="arrow-down"><i class="icon icon-santehnika"></i> Сантехника</span></li>
+                <li><span class="arrow-down"><i class="icon icon-tovary-dlya-detey"></i> Товары для детей</span></li>
+                <li><span class="arrow-down"><i class="icon icon-turizm"></i> Туризм и рыбалка</span></li>
+                <li><span class="arrow-down"><i class="icon icon-sport"></i> Спорт и отдых</span></li>
+                <li><span class="arrow-down"><i class="icon icon-khoztovary"></i> Хозтовары</span></li>
+            </ul>
+        </div>
+    </div>
+    <ul class="menu-mob__ul" style="display: none;">
+        <li class="active">
+            <div class="name"><i class="icon icon-avto"></i> Авто</div>
+            <ul class="menu-mob__ul-level">
+                <li>
+                    <div class="name"> Источники света</div>
+                    <ul class="menu-mob__ul-level2">
+                        <li><a href="">Лампы накаливания</a></li>
+                        <li><a href="">Лампы энергосберегающие
+                            и светодиодные</a></li>
+                        <li><a href="">Лента светодиодная</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a href="#"><i class="icon icon-aromatizatory"></i> Ароматизаторы</a></li>
+        <li><a href="#"><i class="icon icon-bytovaya-tekhnika"></i> Бытовая техника</a></li>
+        <li><a href="#"><i class="icon icon-bytovaya-khimiya"></i> Бытовая химия</a></li>
+        <li><a href="#"><i class="icon icon-galantereya"></i> Галантерея</a></li>
+        <li><a href="#"><i class="icon icon-dacha-i-sad"></i> Дача и сад</a></li>
+        <li><a href="#"><i class="icon icon-domashniy-tekstil"></i> Домашний текстиль</a></li>
+        <li><a href="#"><i class="icon icon-instrumenty"></i> Инструменты</a></li>
+        <li><a href="#"><i class="icon icon-kantselyarskie-tovary"></i> Канцтовары</a></li>
+        <li><a href="#"><i class="icon icon-elektrotekhnika"></i> Электроника</a></li>
+        <li><a href="#"><i class="icon icon-podarki"></i> Подарки</a></li>
+        <li><a href="#"><i class="icon icon-posuda"></i> Посуда</a></li>
+        <li><a href="#"><i class="icon icon-santehnika"></i> Сантехника</a></li>
+        <li><a href="#"><i class="icon icon-tovary-dlya-detey"></i> Товары для детей</a></li>
+        <li><a href="#"><i class="icon icon-turizm"></i> Туризм и рыбалка</a></li>
+        <li><a href="#"><i class="icon icon-sport"></i> Спорт и отдых</a></li>
+        <li><a href="#"><i class="icon icon-khoztovary"></i> Хозтовары</a></li>
+    </ul>
+
+
+</div>
