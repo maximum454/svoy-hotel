@@ -39,18 +39,21 @@
 		background-color: #FF5108;
 		border-color: #FF5108;
 		outline: none;
-		&:hover {
+		&:hover,
+		&.hover{
 			color: #fff;
 			background-color: #E54907;
 			border-color: #E54907;
 		}
-		&:focus{
+		&:focus,
+		&focus{
 			color: #fff;
 			background-color: #FF5108;
 			border-color: #FF5108;
 			box-shadow: 0 0 0 2px rgba(33, 145, 251, 0.24);
 		}
-		&:active{
+		&:active,
+		&.active{
 			color: #fff;
 			background-color: #DB4507;
 			border-color: #DB4507;
@@ -65,20 +68,20 @@
 		border-color: #FF9D26;
 		outline: none;
 		&:hover,
-		.hover{
+		&.hover{
 			color: #fff;
 			background-color: #F29524;
 			border-color: #F29524;
 		}
 		&:focus,
-		.focus{
+		&.focus{
 			color: #fff;
 			background-color: #FF9D26;
 			border-color: #FF9D26;
 			box-shadow: 0 0 0 2px rgba(33, 145, 251, 0.24);
 		}
 		&:active,
-		.active{
+		&.active{
 			color: #fff;
 			background-color: #E68E22;
 			border-color: #E68E22;
@@ -93,7 +96,7 @@
 		border-color: #F4F5F6;
 		outline: none;
 		&:hover,
-		.hover{
+		&.hover{
 			color: #157CDE;
 			background-color: #EBF5FF;
 			border-color: #EBF5FF;
@@ -102,7 +105,7 @@
 			}
 		}
 		&:focus,
-		.focus{
+		&.focus{
 			color: #0D0E20;
 			background-color: #F4F5F6;
 			border-color: #F4F5F6;
@@ -112,7 +115,7 @@
 			}
 		}
 		&:active,
-		.active{
+		&.active{
 			color: #2389EA;
 			background-color:#E1F0FF;
 			border-color: #E1F0FF;
@@ -181,7 +184,7 @@
 		border-color: #FF5108;
 		outline: none;
 		&:hover,
-		.hover{
+		&.hover{
 			color: #E54907;
 			background-color: transparent;
 			border-color: #E54907;
@@ -190,11 +193,11 @@
 			}
 		}
 		&:focus,
-		focus{
+		&.focus{
 			box-shadow: 0 0 0 2px rgba(33, 145, 251, 0.24);
 		}
 		&:active,
-		.active{
+		&.active{
 			color: #DB4507;
 			background-color: transparent;
 			border-color: #DB4507;
@@ -213,7 +216,7 @@
 		border-color: #DCDFE2;
 		outline: none;
 		&:hover,
-		.hover{
+		&.hover{
 			color: #157CDE;
 			background-color: transparent;
 			border-color: #DCDFE2;
@@ -222,11 +225,11 @@
 			}
 		}
 		&:focus,
-		.focus{
+		&.focus{
 			box-shadow: 0 0 0 2px rgba(33, 145, 251, 0.24);
 		}
 		&:active,
-		.active{
+		&.active{
 			color: #2389EA;
 			background-color: transparent;
 			border-color: #DCDFE2;

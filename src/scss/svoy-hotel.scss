@@ -1,11 +1,22 @@
+@import "./partials/formstyler";
+@import "./partials/formstyler.theme";
 @import "./mixin";
 @import "./fonts";
 @import "./icon";
 @import "./buttons";
+@import "./form";
 
-
+*{
+  box-sizing: border-box;
+}
 body{
 
+}
+.container{
+  max-width: 1224px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
 }
 
 
